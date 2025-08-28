@@ -53,6 +53,78 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-container container">
+          <button class="mobile-menu-close">
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <nav class="menu-nav">
+            <ul class="menu-list">
+              <li>
+                <a class="menu-list-link active" href="./index.html">Studio</a>
+              </li>
+              <li><a class="menu-list-link" href="">Portfolio</a></li>
+              <li><a class="menu-list-link" href="">Contacts</a></li>
+            </ul>
+            <address>
+              <ul class="menu-address">
+                <li class="menu-address-item">
+                  <a class="menu-address-link active" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li>
+                  <a class="menu-address-link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+
+              <div>
+                <ul class="mobile-menu-icon">
+                  <li class="menu-icon-item">
+                    <a href="" target="_blank" class="menu-link">
+                      <svg class="icon-socials" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="menu-icon-item">
+                    <a href="" class="menu-link">
+                      <svg class="icon-socials" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="menu-icon-item">
+                    <a href="" class="menu-link">
+                      <svg class="icon-socials" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="menu-icon-item">
+                    <a href="" class="menu-link">
+                      <svg class="icon-socials" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </address>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -136,7 +208,11 @@
           <ul class="team-list">
             <li class="team-list-img">
               <img
-                src="./images/avatar/photo-1.jpg"
+                srcset="
+                  ./images/avatar/team-1.jpg    1x,
+                  ./images/avatar/team-1@2x.jpg 2x
+                "
+                src="./images/avatar/team-1.jpg"
                 width="264"
                 height="260"
                 alt="Mark Guerrero photo"
@@ -178,7 +254,11 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/avatar/photo-2.jpg"
+                srcset="
+                  ./images/avatar/team-2.jpg    1x,
+                  ./images/avatar/team-2@2x.jpg 2x
+                "
+                src="./images/avatar/team-2.jpg"
                 width="264"
                 height="260"
                 alt="Tom Ford photo"
@@ -220,7 +300,11 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/avatar/photo-3.jpg"
+                srcset="
+                  ./images/avatar/team-3.jpg    1x,
+                  ./images/avatar/team-3@2x.jpg 2x
+                "
+                src="./images/avatar/team-3.jpg"
                 width="264"
                 height="260"
                 alt="Camila Garcia photo"
@@ -262,7 +346,11 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/avatar/photo-4.jpg"
+                srcset="
+                  ./images/avatar/team-4.jpg    1x,
+                  ./images/avatar/team-4@2x.jpg 2x
+                "
+                src="./images/avatar/team-4.jpg"
                 width="264"
                 height="260"
                 alt="Daniel Wilson photo"
@@ -314,7 +402,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-app.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-1.jpg    1x,
+                    ./images/portfolio/portfolio-1@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-1.jpg"
                   width="360"
                   height="300"
                   alt="Banking application"
@@ -334,7 +426,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-pay.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-2.jpg    1x,
+                    ./images/portfolio/portfolio-2@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-2.jpg"
                   width="360"
                   height="300"
                   alt="Casheless payment"
@@ -354,7 +450,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-tech.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-3.jpg    1x,
+                    ./images/portfolio/portfolio-3@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-3.jpg"
                   width="360"
                   height="300"
                   alt="Meditation application"
@@ -374,7 +474,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-taxi.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-4.jpg    1x,
+                    ./images/portfolio/portfolio-4@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-4.jpg"
                   width="360"
                   height="300"
                   alt="Taxi service"
@@ -394,7 +498,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-screen.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-5.jpg    1x,
+                    ./images/portfolio/portfolio-5@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-5.jpg"
                   width="360"
                   height="300"
                   alt="Screen illustrations"
@@ -414,7 +522,11 @@
             <li class="portfolio-list-img">
               <div class="img-portfolio">
                 <img
-                  src="./images/portfolio/portfolio-courses.jpg"
+                  srcset="
+                    ./images/portfolio/portfolio-6.jpg    1x,
+                    ./images/portfolio/portfolio-6@2x.jpg 2x
+                  "
+                  src="./images/portfolio/portfolio-6.jpg"
                   width="360"
                   height="300"
                   alt="Woman taking online courses"
